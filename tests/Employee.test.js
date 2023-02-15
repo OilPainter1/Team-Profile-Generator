@@ -2,7 +2,7 @@ const Employee = require('../lib/Employee')
 
 const {describe,expect,test} = require('@jest/globals')
 
-describe('Create Employee', ()=>{
+describe("Create Employee", () => {
     const employee = new Employee("John",1,"John@john.com")
     test("Constructs correctly", ()=>{
         expect(employee.name).toBe("John")
