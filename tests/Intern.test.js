@@ -1,6 +1,6 @@
-const Intern = require("../lib/Intern")
+import Intern from "../lib/Intern"
 
-const {describe,expect,test} = require('@jest/globals')
+import {describe,test,expect} from "@jest/globals"
 
 describe("create Intern", () => {
     const intern = new Intern("Joe",3,"Joe@joe.com","Joe University")

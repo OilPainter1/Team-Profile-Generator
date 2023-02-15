@@ -1,6 +1,5 @@
-const Employee = require('../lib/Employee')
-
-const {describe,expect,test} = require('@jest/globals')
+import Employee from "../lib/Employee"
+import {describe,test,expect} from "@jest/globals"
 
 describe("Create Employee", () => {
     const employee = new Employee("John",1,"John@john.com")

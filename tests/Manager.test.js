@@ -1,6 +1,6 @@
-const Manager = require("../lib/Manager")
+import Manager from "../lib/Manager"
 
-const {describe,expect,test} = require('@jest/globals')
+import {describe,test,expect} from "@jest/globals"
 
 describe("create Manager",() => {
     const manager = new Manager("Kevin",4,"Kevin@kevin.com",10)

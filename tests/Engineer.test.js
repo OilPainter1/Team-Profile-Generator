@@ -1,13 +1,12 @@
-const Engineer = require("../lib/Engineer")
-
-const {describe,expect,test} = require('@jest/globals')
-
+import Engineer from "../lib/Engineer"
+import {describe,test,expect} from "@jest/globals"
 describe("Create Engineer", () => {
     const engineer = new Engineer("Jerry",2,"Jerry@jerry.com","JerrysGithub")
     test("Constructs correctly", ()=>{
         expect(engineer.name).toBe("Jerry")
         expect(engineer.id).toBe(2)
         expect(engineer.email).toBe("Jerry@jerry.com")
+        console.log(engineer.github)
         expect(engineer.github).toBe("JerrysGithub")
         expect(engineer.getName()).toBe("Jerry")
         expect(engineer.getId()).toBe(2)
