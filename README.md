@@ -22,3 +22,6 @@ The program will run after "npm run start" is entered into the terminal
 ## Video Walkthrough:
 https://drive.google.com/file/d/1tTs9UtNSbtMBqNWB_qoUrf28dV6QQg_P/view
 
+## Image:
+
+<img width="333" alt="Team-Profile-Generator-Screen-Shot" src="https://user-images.githubusercontent.com/109541412/222524479-70598648-ad01-4acc-87b5-f71fea1fa0ee.png">
