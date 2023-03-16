@@ -9,6 +9,8 @@ This app generates an html page with the information of members on a team which 
   - cd into the project
   - run npm i
   - run npm run start
+### Accessing html output
+  - the final html output will be in the dist folder
 
 ## Technologies Used:
 - Node.js
@@ -16,9 +18,9 @@ This app generates an html page with the information of members on a team which 
 - npm Jest
 
 ## Organization:
-- tests file: contains tests for Employee, Engineer, Intern, and Manager classes
-- lib file: contains classes for Employee, Engineer, Intern, and Manager
-- dist file: contains final html file that includes the inputted team information
+- tests folder: contains tests for Employee, Engineer, Intern, and Manager classes
+- lib folder: contains classes for Employee, Engineer, Intern, and Manager
+- dist folder: contains final html file that includes the inputted team information
 - index.js: contains main logic for the program
 
 
