@@ -4,8 +4,11 @@ This app generates an html page with the information of members on a team which 
 
 
 ## Running the Program:
-The program will run after "npm run start" is entered into the terminal
-
+### In the command line:
+  - run git clone https://github.com/OilPainter1/Team-Profile-Generator.git 
+  - cd into the project
+  - run npm i
+  - run npm run start
 
 ## Technologies Used:
 - Node.js
